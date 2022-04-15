@@ -1,0 +1,16 @@
+.menu__item {
+  margin-right: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/*--------------MEDIA----------------*/
+/* до 767 */
+@media (max-width: 767px) {
+  .menu__item {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+}

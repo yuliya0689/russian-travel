@@ -1,0 +1,23 @@
+.cover__content {
+  /*позиционирование прозрачной подложки*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*прозрачная подложка фон*/
+  background-color: rgba(42, 44, 47, 0.3);
+  text-decoration: none;
+  color: #FFFFFF;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cover__content:hover {
+  /*при наведении на блок прозрачная подложка становится темнее*/
+  background-color: rgba(42, 44, 47, 0.8);
+}

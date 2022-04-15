@@ -1,0 +1,31 @@
+.places-list__paragraph {
+  margin: 0 0 26px 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.places-list__paragraph:last-of-type {
+  margin: 0;
+}
+
+/*--------------MEDIA----------------*/
+/* до 767 */
+@media (max-width: 767px) {
+  .places-list__paragraph {
+    padding: 0 16px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+/* c 768 по 1023*/
+@media (min-width: 768px) {
+  @media (max-width: 1023px) {
+    .places-list__paragraph {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.cover {
+  width: 100%; /*контейнер получает ширину в 100% от родителя*/
+  background: url(../../images/cover-trains.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 92px;
+}
+
+.cover::after {
+  content: '';
+  display: block;
+  padding-top: 62.5%; /*выставляем высоту блока cover: согласно макету высота всегда должна быть 62.5% от ширины*/
+}
+
+/*--------------MEDIA----------------*/
+/* до 767 */
+@media (max-width: 767px) {
+  .cover {
+    margin-bottom: 64px;
+  }
+}
+
+/* c 768 по 1023*/
+@media (min-width: 768px) {
+  @media (max-width: 1023px) {
+    .cover {
+      margin-bottom: 88px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.intro__title {
+  margin: 0 0 40px 0;
+  padding: 0;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+}
+
+/*--------------MEDIA----------------*/
+/* до 767 */
+@media (max-width: 767px) {
+  .intro__title {
+    margin: 0 97px 40px 16px; /*справа 97px, чтобы заголовок расположился в две строки как по макету 320*/
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+/* c 768 по 1023*/
+@media (min-width: 768px) {
+  @media (max-width: 1023px) {
+    .intro__title {
+      margin: 0 0 40px 24px;
+    }
+  }
+}

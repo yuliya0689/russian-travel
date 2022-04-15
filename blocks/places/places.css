@@ -1,0 +1,11 @@
+.places {
+  margin-bottom: 92px;
+}
+
+/*--------------MEDIA----------------*/
+/* до 767 */
+@media (max-width: 767px) {
+  .places {
+    margin-bottom: 66px;
+  }
+}

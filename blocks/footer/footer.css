@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+/*--------------MEDIA----------------*/
+/* до 767 */
+@media (max-width: 767px) {
+  .footer {
+    padding: 0 16px;
+    display: block;
+  }
+}
+
+/* c 768 по 1023*/
+@media (min-width: 768px) {
+  @media (max-width: 1023px) {
+    .footer {
+      padding: 0 24px;
+    }
+  }
+}
+
+/* c 1024 по 1279*/
+@media (min-width: 1024px) {
+  @media (max-width: 1279px) {
+    .footer {
+      padding: 0 48px;
+    }
+  }
+}

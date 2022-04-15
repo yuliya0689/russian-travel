@@ -1,0 +1,14 @@
+.intro {
+  max-width: 984px; /*чтобы шло по левой оси блока lead*/
+  margin: 0 auto;
+}
+
+/*--------------MEDIA----------------*/
+/* c 1024 по 1279*/
+@media (min-width: 1024px) {
+  @media (max-width: 1279px) {
+    .intro {
+      max-width: 928px; /*чтобы шло по левой оси блока lead на разрешении 1024 и выше*/
+    }
+  }
+}

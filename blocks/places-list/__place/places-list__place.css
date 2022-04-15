@@ -1,0 +1,54 @@
+.places-list__place {
+  display: grid;
+  /*
+  левый столбец зафиксировали: 460px
+  правый столбец: оставшееся пространство минус левый столбец, минус gap
+  */
+  grid-template-columns: 460px calc(100% - 460px - 40px);
+  gap: 48px 40px;
+  margin-bottom: 80px;
+}
+
+.places-list__place:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------MEDIA----------------*/
+/* до 767 */
+@media (max-width: 767px) {
+  .places-list__place {
+    /* теперь один столбец, как по макету №320*/
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 50px;
+  }
+}
+
+/* c 768 по 1023*/
+@media (min-width: 768px) {
+  @media (max-width: 1023px) {
+    .places-list__place {
+      /*
+      левый столбец зафиксировали: 340px
+      правый столбец: оставшееся пространство минус левый столбец, минус gap
+      */
+      grid-template-columns: 340px calc(100% - 340px - 28px);
+      gap: 48px 28px;
+      margin-bottom: 73px;
+    }
+  }
+}
+
+/* c 1024 по 1279*/
+@media (min-width: 1024px) {
+  @media (max-width: 1279px) {
+    .places-list__place {
+      /*
+      левый столбец зафиксировали: 440px
+      правый столбец: оставшееся пространство минус левый столбец, минус gap
+      */
+      grid-template-columns: 440px calc(100% - 440px - 32px);
+      gap: 48px 32px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.logo {
+  background: url(../../images/header-logo.svg) center no-repeat;
+  background-size: cover;
+  width: 176px;
+  height: 52px;
+  display: block;
+}
+
+/*--------------MEDIA----------------*/
+/* до 767 */
+@media (max-width: 767px) {
+  .logo {
+    width: 142px;
+    height: 42px;
+  }
+}
+
