@@ -4,13 +4,15 @@
 * Описание проекта
 * Функциональность
 * Ссылка на макет Figma
-* Сслыка на GitHub Pages
+* Ссылка на GitHub Pages
 
 **Описание проекта**
+
 Проект о путешествии на поезде по России.
 Содержит описание с фото интересных мест России, которые можно посетить.
 
 **Функциональность**
+
 1. Подключен файл normalize.css.
 2. Подключен шрифт Inter.
 3. Создана файловая структура по БЭМ (Nested).
@@ -19,7 +21,9 @@
 
 
 **Ссылка на макет Figma**
+
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
-**Сслыка на GitHub Pages**
+**Ссылка на GitHub Pages**
+
 * [Сслыка на GitHub Pages](https://yuliya0689.github.io/russian-travel/index.html)
