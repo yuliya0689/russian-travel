@@ -1,5 +1,16 @@
 .lead__image {
   width: 100%;
+  max-width: 984px;
   object-fit: cover;
   float: left;
+}
+
+/* c 1024 по 1279*/
+@media (min-width: 1024px) {
+  @media (max-width: 1279px) {
+    /*органичиваем ширину до 928px согласно макету 1024*/
+    .lead__image {
+      max-width: 928px;
+    }
+  }
 }
