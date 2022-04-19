@@ -1,4 +1,4 @@
-.places-list__item_position_end {
+.place__item_position_end {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;

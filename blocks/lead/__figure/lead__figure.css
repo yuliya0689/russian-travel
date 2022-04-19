@@ -1,14 +1,16 @@
 /*органичиваем ширину блока с картинкой и ссылкой
 до 984px согласно макету 1280*/
-.lead__wrap {
+.lead__figure {
   max-width: 984px;
+  margin: 0;
+  padding: 0;
 }
 
 /* c 1024 по 1279*/
 @media (min-width: 1024px) {
   @media (max-width: 1279px) {
     /*органичиваем ширину до 928px согласно макету 1024*/
-    .lead__wrap {
+    .lead__figure {
       max-width: 928px;
     }
   }

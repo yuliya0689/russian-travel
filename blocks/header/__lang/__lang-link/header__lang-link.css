@@ -1,4 +1,4 @@
-.lang__link{
+.header__lang-link {
   text-decoration: none;
   color: white;
   font-weight: 400;
@@ -9,7 +9,7 @@
 /*--------------MEDIA----------------*/
 /* до 767 */
 @media (max-width: 767px) {
-  .lang__link {
+  .header__lang-link {
     font-size: 18px;
     line-height: 20px;
   }

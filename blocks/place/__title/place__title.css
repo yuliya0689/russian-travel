@@ -1,4 +1,4 @@
-.places-list__title {
+.place__title {
   margin: 0;
   padding: 0;
   font-weight: 900;
@@ -9,7 +9,7 @@
 /*--------------MEDIA----------------*/
 /* до 767 */
 @media (max-width: 767px) {
-  .places-list__title {
+  .place__title {
     padding: 0 16px;
     font-size: 32px;
     line-height: 35px;
@@ -19,7 +19,7 @@
 /* c 768 по 1023*/
 @media (min-width: 768px) {
   @media (max-width: 1023px) {
-    .places-list__title {
+    .place__title {
       font-size: 42px;
       line-height: 46px;
       margin-right: 10px; /*чтобы был перенос на новую строку, как по макету*/
